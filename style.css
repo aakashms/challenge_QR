@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+}
+
+
+@media screen and (min-width:750px) {
+    
+.contain{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+padding: 20px ;
+border-radius: 20px;
+
+    position: fixed;
+    left: 40%;
+    top: 20%;
+}
+}
+
+.contain{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    padding: 20px ;
+    border-radius: 20px;
+
+}
+
+.set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+img{
+    border-radius: 20px;
+    width: 300px;
+}
+
+p{
+    color: cadetblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
